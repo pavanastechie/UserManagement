@@ -1,0 +1,102 @@
+@CHARSET "ISO-8859-1";
+
+body {
+	  font-family: cambria !important;
+	  font-size: 16px;
+}
+.um-header {
+    position: relative;
+}
+
+.um-header .um-logo {
+	display: inline-block;
+	margin-bottom: 8px;
+    margin-right: 200px;
+}
+
+.um-header .um-title {
+	display: inline-block;
+}
+
+.um-header .um-title h3 {
+	color: #0b7bb7;
+    font-size: 45px;
+}
+
+.um-header .um-logo img {
+	width: 200px;
+}
+
+.edit_user {
+	font-size:14px;
+}
+
+.delete_user {
+	font-size:14px;
+}
+
+.usrmgt-body {
+	background-image: url("../../resources/images/signin-bg-texture.jpg");
+}
+
+.login-div {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 25em;
+  height: 20em;
+  margin-top: -9em;
+  margin-left: -15em;
+  border: 1px solid #ccc;
+  background-color: lightgrey;
+}
+
+#create-new-user {
+  float: left;
+  margin-bottom: 50px;
+  margin-left: 15px;
+}
+
+#user-container {
+  width: 35%;
+}
+
+#login-container {
+  width: 25%;
+}
+
+h3 {
+	text-align: center;
+}
+
+.footer-div {
+	background-color: #333;
+    bottom: 0;
+    height: 35px;
+    position: absolute;
+    width: 100%;
+}
+
+.footer-div span {
+	color: #fff;
+	font-size: 12px;
+	float: right;
+    position: relative;
+    top: 8px;
+}
+
+.footer-div span a {
+	color: #fff;
+	border-right: 1px solid;
+    padding: 5px;
+}
+
+.footer-div .footer-message {
+	float: left;
+}
+
+.footer-about-us {
+}
+
+.footer-contact-us {
+}
